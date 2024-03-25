@@ -38,7 +38,7 @@ const Registration = () => {
                     <a href="#" class="flex bg-white p-3 items-center mb-6 text-2xl font-semibold text-gray-900">
                     <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/tail-of-whale.png" alt="tail-of-whale"/> 
 
-Deep Talk
+Talk App
                     </a>
                    
                     <div className="w-full bg-white rounded-lg shadow md:mt-0 md:max-w-xl sm:max-w-md  xl:p-0 ">

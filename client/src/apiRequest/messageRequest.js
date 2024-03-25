@@ -5,7 +5,7 @@ import { getToken } from "../helper/sessionHelper";
 import { setAllMessages, setNewMessage, setSingleMessage } from "../redux/state/chatSlice";
 import { socket } from "../components/ChatBox";
 
-const BaseURL = "https://deeptalk-be.onrender.com/api";
+const BaseURL = "https://talkapp-g8qz.onrender.com/api";
 const AxiosHeader = { headers: { "token": getToken() } };
 
 export const sentMessageRequest = async (content, chatId) => {

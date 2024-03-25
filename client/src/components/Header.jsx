@@ -70,7 +70,7 @@ const Header = () => {
                 <div className="logo flex items-center cursor-pointer">
                 <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/tail-of-whale.png" alt="tail-of-whale" class="filter invert-100"/>
 
-                    <span class="text-2xl font-bold text-white "> Deep Talk</span>
+                    <span class="text-2xl font-bold text-white "> Talk App</span>
                 </div>
                 <div className="flex items-center space-x-3 lg:space-x-8">
                     <div className="px-1 h-35">

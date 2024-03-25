@@ -25,8 +25,7 @@ const ForgetPassword = () => {
                 <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto h-screen lg:py-0">
                     <a href="#" className="flex bg-white p-3 items-center mb-6 text-2xl font-semibold text-gray-900 ">
                     <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/tail-of-whale.png" alt="tail-of-whale"/> 
-
-Deep Talk
+ Talk App
                     </a>
                     <div className="w-full bg-white rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0 ">
                         <div className="p-6 space-y-4 md:space-y-6 sm:p-8">

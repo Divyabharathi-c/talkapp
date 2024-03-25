@@ -13,7 +13,7 @@ import io from "socket.io-client";
 import { setNotification, setOnlineUsers } from '../redux/state/settingSlice'
 import { myChatRequest } from '../apiRequest/chatRequset'
 
-const ENDPOINT = "https://deeptalk-be.onrender.com/"
+const ENDPOINT = "https://talkapp-g8qz.onrender.com/"
 export var socket, selectedChatCompare
 
 const ChatBox = ({ dispatch }) => {
