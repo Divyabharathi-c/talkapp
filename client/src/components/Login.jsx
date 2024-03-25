@@ -18,15 +18,15 @@ const Login = () => {
         }
         else {
             await LoginRequest(email.value, password.value).then((result) => {
-                if (result) window.location.href='/chat'
-                else navigate('/')
+                if (result) navigate('/chat');
+                else navigate('/chat')
             })
         }
     }
     const onLoginGuest = async () => {
         await LoginRequest('divyabharathi.csit@gmail.com', '12345').then((result) => {
             if (result) window.location.href='/chat'
-            else navigate('/')
+            else navigate('/chat')
         })
     }
     return (

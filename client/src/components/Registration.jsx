@@ -23,7 +23,7 @@ const Registration = () => {
         }
         else {
             await RegistrationRequest(fname.value, lname.value, email.value, password.value).then((result) => {
-                if (result) window.location.href='/chat'
+                if (result) navigate('/');
                 else navigate('/')
             })
         }
