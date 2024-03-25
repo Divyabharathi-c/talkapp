@@ -19,7 +19,7 @@ const Login = () => {
         else {
             await LoginRequest(email.value, password.value).then((result) => {
                 if (result) navigate('/chat');
-                else navigate('/chat')
+                else navigate('/')
             })
         }
     }

@@ -10,7 +10,7 @@ const host = app.listen(PORT, ()=>{
 const io = new Server(host, {
  pingTimeout: 60000,
  cors: {
- origin: "https://deep-talk-vk.netlify.app"
+ origin: "https://curious-tulumba-39edce.netlify.app/"
 },
 })
 
